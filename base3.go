@@ -5,7 +5,8 @@ import (
 	"strconv"
 )
 
-func toBase3(n int, digits int) string {
+// IntToBase3 converts an integer into it's base3 representation
+func IntToBase3(n int, digits int) string {
 	if n == 0 {
 		return fmt.Sprintf("%0*d", digits, 0)
 	}
